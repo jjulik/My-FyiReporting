@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WarSetup-Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" menuShortcutDirName="" overRideMenuShortcutDir="false" projectRunAfterInstall="true" mainTargetApp="ID_ac0d4a40_2eb5_401a_8daf_5e534e01e7d8" nextUniqueId="1886" projectName="Majorsilence Reporting" projectUuid="551f1c0c-5ccc-4ca2-8a68-a9eb7354c6f8" projectUpgradeUuid="cb05fe8c-3572-41c2-83ce-46055393e123" projectVersion="4.13.0" projectOrganization="MajorSilence" projectFromWindowsVersion="Windows XP SP 3" projectMustBeAdministratorToInstall="true" project64BitTarget="false" projectTargetDirectory="C:\git\My-FyiReporting\Release-Builds\build-output" projectRequireDotNetVersion=".NET 4.0 FULL" projectTargetName="setup-Majorsilence-Reporting-dot-net4-x86" projectType="0" projectUserInterface="WixUI_FeatureTree">
+<WarSetup-Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" menuShortcutDirName="" overRideMenuShortcutDir="false" projectRunAfterInstall="true" mainTargetApp="ID_ac0d4a40_2eb5_401a_8daf_5e534e01e7d8" nextUniqueId="2008" projectName="Majorsilence Reporting" projectUuid="6a4c40a0-21ed-4b08-995b-92fb36272548" projectUpgradeUuid="cb05fe8c-3572-41c2-83ce-46055393e123" projectVersion="4.13.0" projectOrganization="MajorSilence" projectFromWindowsVersion="Windows XP SP 3" projectMustBeAdministratorToInstall="true" project64BitTarget="false" projectTargetDirectory="C:\git\My-FyiReporting\Release-Builds\build-output" projectRequireDotNetVersion=".NET 4.0 FULL" projectTargetName="setup-Majorsilence-Reporting-dot-net4-x86" projectType="0" projectUserInterface="WixUI_FeatureTree">
   <LicencePaths>
     <string>C:\git\WarSetup-Fork\WarSetup\bin\Debug\Licenses</string>
   </LicencePaths>
@@ -177,6 +177,22 @@
       <components componentId="ID1659" componentGuid="05f314c3-1676-4ada-8535-7beb35ab1297">
         <componentFiles fileId="ID_79493b44_e333_404d_949d_60386f3c8b4f" srcName="zxing.dll" srcDirectory=".\build-output\majorsilence-reporting-build-dot-net-4-x86" dstName="zxing.dll" dstPath="" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="zxing" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
           <service StartWhenInstalled="true" Remove="both" id="ID1658" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID1943" componentGuid="f4e82c39-6f48-4160-a091-3792f785a1a7">
+        <componentFiles fileId="ID_6acc8695_c200_42ef_bb82_212770f3b253" srcName="ScintillaNET.dll" srcDirectory=".\build-output\majorsilence-reporting-build-dot-net-4-x86" dstName="ScintillaNET.dll" dstPath="" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="ScintillaNET" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID1942" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
+          <executeOnInstall>false</executeOnInstall>
+          <executeOnInstallParameters />
+        </componentFiles>
+        <addToCreateFolder>false</addToCreateFolder>
+      </components>
+      <components componentId="ID2007" componentGuid="04c9a502-480c-4595-88c3-9e8fff273514">
+        <componentFiles fileId="ID_721f538e_3765_4eb0_9eb2_0f7f069fb528" srcName="EncryptionProvider.dll" srcDirectory=".\build-output\majorsilence-reporting-build-dot-net-4-x86" dstName="EncryptionProvider.dll" dstPath="" isTrueTypeFont="false" isComModule="false" typelibGuid="" menuName="EncryptionProvider" shortcutInProgramFilesMenu="false" shortcutOnDesktop="false" shortcutInQuickLaunch="false" shortcutInStartupFolder="false" shortcutWorkingDirectory="" shortcutCommandArguments="" shortcutDescription="">
+          <service StartWhenInstalled="true" Remove="both" id="ID2006" isService="false" userAccount="" userPassword="" cmdLineArguments="" errorControl="normal" interactive="false" loadOrderGroup="" serviceName="" startMode="auto" vital="true" />
           <executeOnInstall>false</executeOnInstall>
           <executeOnInstallParameters />
         </componentFiles>
