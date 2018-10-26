@@ -2,7 +2,7 @@ REM Platform options: "x86", "x64", "x64"
 REM /p:Configuration="Debug" or "Release"
 
 REM set msbuildpath="%ProgramFiles(x86)%\MSBuild\14.0\bin\MSBuild.exe"
-set msbuildpath="%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe"
+set msbuildpath="MSBuild.exe"
 
 REM retrieve new version number
 REM See http://stackoverflow.com/questions/4044579/how-to-get-output-of-a-for-loop-into-a-variable-in-a-batch-file
@@ -54,8 +54,8 @@ copy ..\LibRdlCrossPlatformViewer\bin\Release\LibRdlCrossPlatformViewer.xml .\bu
 copy "..\References\dot net 4\Xwt.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x64\Xwt.dll /Y
 copy "..\References\dot net 4\Xwt.Gtk.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x64\Xwt.Gtk.dll /Y
 copy "..\References\dot net 4\Xwt.WPF.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x64\Xwt.WPF.dll /Y
-copy "..\packages\ZXing.Net.0.14.0.1\lib\net40\zxing.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x64\zxing.dll
-copy "..\packages\ZXing.Net.0.14.0.1\lib\net40\zxing.presentation.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x64\zxing.presentation.dll
+copy "..\packages\ZXing.Net.0.16.4\lib\net40\zxing.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x64\zxing.dll
+copy "..\packages\ZXing.Net.0.16.4\lib\net40\zxing.presentation.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x64\zxing.presentation.dll
 
 mkdir .\build-output\majorsilence-reporting-build-dot-net-4-x64\ru-RU
 copy ..\RdlDesign\bin\x64\Release\ru-RU\RdlDesigner.resources.dll .\build-output\majorsilence-reporting-build-dot-net-4-x64\ru-RU\RdlDesigner.resources.dll /Y
@@ -110,8 +110,8 @@ copy ..\LibRdlCrossPlatformViewer\bin\Release\LibRdlCrossPlatformViewer.xml .\bu
 copy "..\References\dot net 4\Xwt.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x86\Xwt.dll /Y
 copy "..\References\dot net 4\Xwt.Gtk.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x86\Xwt.Gtk.dll /Y
 copy "..\References\dot net 4\Xwt.WPF.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x86\Xwt.WPF.dll /Y
-copy "..\packages\ZXing.Net.0.14.0.1\lib\net40\zxing.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x86\zxing.dll
-copy "..\packages\ZXing.Net.0.14.0.1\lib\net40\zxing.presentation.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x86\zxing.presentation.dll
+copy "..\packages\ZXing.Net.0.16.4\lib\net40\zxing.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x86\zxing.dll
+copy "..\packages\ZXing.Net.0.16.4\lib\net40\zxing.presentation.dll" .\build-output\majorsilence-reporting-build-dot-net-4-x86\zxing.presentation.dll
 
 mkdir .\build-output\majorsilence-reporting-build-dot-net-4-x86\ru-RU
 copy ..\RdlDesign\bin\x86\Release\ru-RU\RdlDesigner.resources.dll .\build-output\majorsilence-reporting-build-dot-net-4-x86\ru-RU\RdlDesigner.resources.dll /Y
